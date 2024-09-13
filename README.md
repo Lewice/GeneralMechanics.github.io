@@ -109,12 +109,14 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "Fill ME",
+    url: "https://api.apispreadsheets.com/data/sJxawwLog0xurNYa/"
+
+)",
     type: "post",
     data: formData,
     headers: {
-      accessKey: "Fill Me",
-      secretKey: "Fill Me",
+      accessKey: "f45037dd83bdfa9d484de0ede65a70c0",
+      secretKey: "3c17850e9877f4af762d84f2296bad32",
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
@@ -145,7 +147,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "Fill Me", // Replace with your Discord webhook URL
+    url: "FillMe", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
