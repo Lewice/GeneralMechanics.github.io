@@ -186,13 +186,19 @@
   <h2>General Mechanics</h2>
 
   <form id="menuForm">
-  <h3>Ice Cream Specials</h3>
+  <h3>Repairs</h3>
     <label>
       <input type="checkbox" class="menu-item" data-price="1000"> Full Repair $1,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
       <input type="checkbox" class="menu-item" data-price="700"> PD Repair $700 EMS FREE
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+	
+	  <h3>Road Side Assistance</h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="500"> Road Side Assistance - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -284,7 +290,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (10%): $<span id="commission"></span></p>
+    <p>Commission (50%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
